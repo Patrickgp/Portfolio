@@ -1,2 +1,2 @@
 # Portfolio
-My Portfolio Page
+My Portfolio Page link is https://patrickgp.github.io/Portfolio/
