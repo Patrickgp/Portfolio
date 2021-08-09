@@ -5,6 +5,7 @@
   }
   75% {
     margin-left: -50%;
+    color: white;
   }
   to {
     margin-left: -60%;
@@ -16,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(110deg, rgb(129, 132, 167), rgb(25, 23, 36));
+  background: linear-gradient(110deg, rgb(129, 132, 167), rgb(26, 27, 41));
   background-repeat: no-repeat;
   background-size: cover;
 }
