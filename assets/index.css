@@ -72,7 +72,6 @@ ul {
 
 .overlay {
   position: absolute;
-  height: 100%;
   width: 100%;
   opacity: 0;
   top: 482px;
@@ -101,7 +100,6 @@ ul {
 
 .overlay1 {
   position: absolute;
-  height: 100%;
   width: 100%;
   opacity: 0;
   top: 517px;
@@ -124,7 +122,6 @@ ul {
 
 .overlay2 {
   position: absolute;
-  height: 100%;
   width: 100%;
   opacity: 0;
   top: 552px;
@@ -147,7 +144,6 @@ ul {
 
 .overlay3 {
   position: absolute;
-  height: 100%;
   width: 100%;
   opacity: 0;
   top: 587px;
