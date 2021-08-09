@@ -16,16 +16,15 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background: white;
+  background: linear-gradient(110deg, rgb(129, 132, 167), rgb(25, 23, 36));
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: -3px;
+  margin-top: -40px;
   padding-top: 100px;
   width: 4vw;
   border-style: solid;
@@ -44,13 +43,13 @@ ul {
   font-size: 12pt;
   padding-top: 120px;
   padding-bottom: 50px;
-  color: white;
+  color: rgb(153, 170, 187);
   animation-duration: 3s;
   animation-name: slidein;
 }
 
 .cta:hover {
-  color: gray;
+  color: white;
   text-decoration: underline;
   transition: 0.3s;
   cursor: pointer;
@@ -153,13 +152,46 @@ ul {
   top: 587px;
 }
 
-footer {
-  padding: 95vh 8vw;
+.welcome {
+  display: flex;
+  color: black;
+  margin-left: 100px;
+  margin-top: 200px;
+  padding: 400px;
+  text-align: center;
+  font-size: 16pt;
+  background-color: white;
+}
+
+.name {
+  text-align: center;
+  padding-left: 120px;
+  color: white;
+  font-size: 24pt;
+}
+
+.journey img {
+  height: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  display: block;
+  margin-left: 30vw;
+  margin-right: 50vw;
+  width: 46%;
+  border-radius: 50%;
+  border-style: solid;
+  color: white;
+  box-shadow: 10px 5px 5px white;
 }
 
 .credits {
   font-size: 8pt;
   color: black;
+  background-color: white;
+  margin: 0;
 }
 
 .credits a {
