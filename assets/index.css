@@ -24,7 +24,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: -40px;
+  margin-top: -150px;
   padding-top: 100px;
   width: 4vw;
   border-style: solid;
@@ -172,27 +172,11 @@ ul {
 }
 
 .name {
-  text-align: center;
-  padding-left: 120px;
+  text-align: left;
+  padding-left: 150px;
+  padding-bottom: 50px;
   color: white;
-  font-size: 24pt;
-}
-
-.journey img {
-  height: auto;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  position: relative;
-  display: block;
-  margin-left: 30vw;
-  margin-right: 50vw;
-  width: 46%;
-  border-radius: 50%;
-  border-style: solid;
-  color: white;
-  box-shadow: 10px 5px 5px white;
+  font-size: 108pt;
 }
 
 .credits {
