@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  cursor: crosshair;
 }
 
 @keyframes slidein {
@@ -57,7 +58,6 @@ ul {
   color: white;
   text-decoration: underline;
   transition: 0.3s;
-  cursor: pointer;
 }
 
 .container img {
