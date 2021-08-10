@@ -69,36 +69,18 @@ ul {
   max-width: 25px;
   z-index: 1;
 }
-.container1 a {
-  position: relative;
-  width: 100%;
-  max-width: 25px;
-  z-index: 1;
-}
-.container2 a {
-  position: relative;
-  width: 100%;
-  max-width: 25px;
-  z-index: 1;
-}
-.container3 a {
-  position: relative;
-  width: 100%;
-  max-width: 25px;
-  z-index: 1;
-}
 
 .socialMedia {
   width: 100%;
   height: auto;
-  display: absolute;
+  position: relative;
   padding-top: 10px;
 }
 
 .socialMediaHover a {
   width: 100%;
   height: auto;
-  display: absolute;
+  position: absolute;
   padding-top: 10px;
 }
 
