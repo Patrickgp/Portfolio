@@ -94,20 +94,20 @@ ul {
   z-index: 2;
 }
 .overlay img {
-  width: auto;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 .overlay1 img {
-  width: auto;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 .overlay2 img {
-  width: auto;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 .overlay3 img {
-  width: auto;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 
 .container:hover .overlay {
@@ -119,8 +119,8 @@ ul {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
-  height: auto;
+  width: 25px;
+  height: 25px;
 }
 
 .container1 img {
