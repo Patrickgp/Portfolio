@@ -1,0 +1,203 @@
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 300%;
+  }
+  75% {
+    margin-left: -50%;
+    color: white;
+  }
+  to {
+    margin-left: -60%;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-110deg, #182848, #4b6cb7);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: -150px;
+  padding-top: 100px;
+  width: 4vw;
+  border-style: solid;
+  border-color: black;
+  background: rgb(3, 43, 68);
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.cta {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12pt;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  color: rgb(153, 170, 187);
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.cta:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container img {
+  position: relative;
+  width: 100%;
+  max-width: 25px;
+  z-index: 1;
+}
+
+.container a {
+  position: relative;
+  width: 100%;
+  max-width: 25px;
+  z-index: 1;
+}
+
+.socialMedia {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 10px;
+}
+
+.socialMediaHover a {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: 482px;
+  right: -40.3px;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  top: 482px;
+}
+
+.socialMediaHover {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1 img {
+  position: relative;
+  width: 100%;
+  max-width: 25px;
+  z-index: 1;
+}
+
+.overlay1 {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: 517px;
+  right: -40.3px;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+  top: 517px;
+}
+
+.container2 img {
+  position: relative;
+  width: 100%;
+  max-width: 25px;
+  z-index: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: 552px;
+  right: -40.3px;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+  top: 552px;
+}
+
+.container3 img {
+  position: relative;
+  width: 100%;
+  max-width: 25px;
+  z-index: 1;
+}
+
+.overlay3 {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: 587px;
+  right: -40.3px;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+  top: 587px;
+}
+
+.welcome {
+  display: flex;
+  color: black;
+  margin-left: 100px;
+  margin-top: 200px;
+  padding: 350px;
+  text-align: center;
+  font-size: 16pt;
+  background-color: white;
+}
+
+.name {
+  text-align: left;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 108pt;
+}
+
+.credits {
+  font-size: 8pt;
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+
+.credits a {
+  list-style-type: none;
+  text-decoration: none;
+}
