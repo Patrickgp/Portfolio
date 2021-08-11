@@ -6,6 +6,42 @@
     padding: 0;
     overflow: hidden;
   }
+  .dropbtn {
+    background: linear-gradient(110deg, #5f2c82, #49a09d);
+    position: relative;
+    padding: 10px;
+    top: 50px;
+    left: 20px;
+    border: solid;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    margin-top: 200px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
   .socialMediaHover {
     display: none;
   }
@@ -18,7 +54,7 @@
   .nameMobile {
     position: absolute;
     font-size: 20pt;
-    margin: 0px;
+    margin-top: 0px;
     width: 100vw;
     padding: 50px 10px 50px 10px;
     top: 0px;
@@ -28,10 +64,13 @@
     color: white;
     z-index: 2;
   }
+  .name {
+    display: none;
+  }
   .welcome {
     position: relative;
-    margin-top: 80px;
-    padding: 20px 30px 100vh 30px;
+    margin-top: 105px;
+    padding: 5px 30px 100vh 30px;
     text-align: center;
     background-color: rgb(153, 170, 187);
   }
@@ -69,6 +108,14 @@
     background: linear-gradient(-110deg, #182848, #4b6cb7);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .dropdown.content {
+    display: none;
   }
 
   ul {
