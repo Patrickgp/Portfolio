@@ -1,4 +1,7 @@
 @media only screen and (max-width: 800px) {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     background-image: linear-gradient(110deg, #5f2c82, #49a09d);
     background-repeat: no-repeat;
