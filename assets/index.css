@@ -1,36 +1,43 @@
 @media only screen and (max-width: 800px) {
   body {
-    background-color: white;
+    background-image: linear-gradient(110deg, #5f2c82, #49a09d);
     font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
-  .socialMediaBar img {
-    display: flexbox;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 25px;
-    margin: 10px 200px;
-    position: relative;
-    top: 100px;
-  }
   .socialMediaHover {
+    display: none;
+  }
+  .socialMedia {
     display: none;
   }
   .cta {
     display: none;
   }
-  .name {
+  .nameMobile {
     position: absolute;
     font-size: 20pt;
-    margin: 0;
-    padding: 20px 200px 20px 200px;
+    margin: 0px;
+    width: 100vw;
+    padding: 50px 10px 50px 10px;
     top: 0px;
     background-color: rgb(3, 43, 68);
     text-align: center;
+    align-content: center;
     color: white;
+    z-index: 2;
+  }
+  .welcome {
+    position: relative;
+    margin-top: 80px;
+    padding: 20px 30px 100vh 30px;
+    text-align: center;
+    background-color: rgb(153, 170, 187);
+  }
+  .credits {
+    text-align: center;
+    font-size: 10pt;
   }
 }
 
@@ -247,6 +254,10 @@
     padding-bottom: 50px;
     color: white;
     font-size: 108pt;
+  }
+
+  .nameMobile {
+    display: none;
   }
 
   .credits {
