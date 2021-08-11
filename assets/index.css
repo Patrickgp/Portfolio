@@ -1,4 +1,7 @@
 @media only screen and (max-width: 800px) {
+  html {
+    overflow: hidden;
+  }
   body {
     background-image: linear-gradient(110deg, #5f2c82, #49a09d);
     font-family: Poppins, sans-serif;
@@ -71,7 +74,7 @@
   }
   .welcome {
     position: absolute;
-    margin-top: 0px;
+    margin-top: 20px;
     padding: 5px 30px 100vh 30px;
     text-align: center;
     background-color: rgb(153, 170, 187);
