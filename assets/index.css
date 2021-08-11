@@ -1,16 +1,20 @@
 @media only screen and (max-width: 800px) {
   body {
     background-image: linear-gradient(110deg, #5f2c82, #49a09d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
     font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: auto;
   }
   .dropbtn {
     background: linear-gradient(110deg, #5f2c82, #49a09d);
     position: relative;
     padding: 10px;
-    top: 50px;
+    top: 40px;
     left: 20px;
     border: solid;
     color: white;
@@ -54,11 +58,12 @@
   .nameMobile {
     position: absolute;
     font-size: 20pt;
-    margin-top: -100px;
-    width: 100vw;
+    margin-top: -85px;
+    width: auto;
     padding: 50px 10px 50px 10px;
     background-color: rgb(3, 43, 68);
     text-align: center;
+    text-decoration: underline;
     align-content: center;
     color: white;
     z-index: 2;
@@ -73,7 +78,8 @@
   .welcome {
     position: absolute;
     margin-top: 0px;
-    padding: 5px 30px 100vh 30px;
+    width: auto;
+    padding: 20px 20px 440px 20px;
     text-align: center;
     background-color: rgb(153, 170, 187);
   }
