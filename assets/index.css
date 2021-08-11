@@ -70,8 +70,8 @@
     display: none;
   }
   .welcome {
-    position: relative;
-    margin-top: 50px;
+    position: absolute;
+    margin-top: 0px;
     padding: 5px 30px 100vh 30px;
     text-align: center;
     background-color: rgb(153, 170, 187);
@@ -79,6 +79,9 @@
   .credits {
     text-align: center;
     font-size: 10pt;
+    position: relative;
+    top: 100vh;
+    z-index: 4;
   }
 }
 
