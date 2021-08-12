@@ -17,11 +17,10 @@
     background: linear-gradient(110deg, #5f2c82, #49a09d);
     position: relative;
     padding: 10px;
-    top: 45px;
-    left: 50px;
+    top: 40px;
+    left: 20px;
     border: solid;
     color: white;
-    text-decoration: underline;
     border-color: white;
     cursor: pointer;
     border-radius: 50px;
