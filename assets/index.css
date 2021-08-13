@@ -59,7 +59,7 @@
     display: none;
   }
   .nameMobile {
-    position: absolute;
+    position: relative;
     font-size: 20pt;
     margin-top: -85px;
     width: 100vw;
