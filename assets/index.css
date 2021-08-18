@@ -428,4 +428,21 @@
     list-style-type: none;
     text-decoration: none;
   }
+  .practiceSite img {
+    position: relative;
+    display: flexbox;
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+    left: 150px;
+    top: -75px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: black 3px 3px 3px 3px;
+    opacity: 80%;
+  }
+  .practiceSite img:hover {
+    opacity: 100%;
+    transition: 0.4sec;
+  }
 }
