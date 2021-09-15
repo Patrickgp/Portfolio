@@ -445,4 +445,22 @@
     opacity: 100%;
     transition: 0.4sec;
   }
+
+  .snakeGame img {
+    position: relative;
+    display: flexbox;
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+    left: 55vw;
+    top: -390px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: black 3px 3px 3px 3px;
+    opacity: 80%;
+  }
+  .snakeGame img:hover {
+    opacity: 100%;
+    transition: 0.4sec;
+  }
 }
